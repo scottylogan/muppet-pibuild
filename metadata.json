@@ -1,0 +1,21 @@
+{
+  "name": "muppet-pibuild",
+  "version": "0.1.0",
+  "author": "Scotty Logan <scotty@catbert.net>",
+  "summary": "Pi build system configuration",
+  "license": "MIT",
+  "source": "https://github.com/scottylogan/muppet-pibuild.git",
+  "project_page": "https://github.com/scottylogan/muppet-pibuild",
+  "issues_url": "https://github.com/scottylogan/muppet-pibuild/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs-apt",
+      "version_requirement": ">= 2.2.0"
+    }
+  ]
+}
+
