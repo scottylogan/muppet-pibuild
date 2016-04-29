@@ -67,21 +67,21 @@ class pibuild {
     ensure => directory,
     owner  => 'root',
     group  => 'dev',
-    modee  => '02755',
+    mode   => '02755',
   }
 
   file { '/data/src':
     ensure => directory,
     owner  => 'root',
     group  => 'dev',
-    modee  => '02755',
+    mode   => '02755',
   }
 
   file { '/data/tarballs':
     ensure => directory,
     owner  => 'root',
     group  => 'dev',
-    modee  => '02755',
+    mode   => '02755',
   }
 
   Group <| tag == dev |>
