@@ -1,6 +1,6 @@
 {
   "name": "muppet-pibuild",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Scotty Logan <scotty@catbert.net>",
   "summary": "Pi build system configuration",
   "license": "MIT",
