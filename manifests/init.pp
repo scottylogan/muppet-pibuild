@@ -6,10 +6,6 @@ class pibuild {
       # general build tools
       'build-essential',
 
-      # Git
-      'git',
-      'git-man',
-
       # Docker
       'docker',
 
@@ -22,16 +18,10 @@ class pibuild {
       'deborphan',
       'debootstrap',
       'git-buildpackage',
-      'git-buildpackage-rpm',
-      'gitpkg',
       'npm2deb',
       'dput',
       'reprepro',
-      'aptly',
       
-      # Yum packaging?
-      'createrepo',
-
       # Java (mostly for Jenkins)
       'openjdk-7-jre-headless',
       'javahelper',
