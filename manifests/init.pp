@@ -48,6 +48,10 @@ class pibuild {
       'patchutils',
       'strace',
       
+      # Ruby
+      'rubygems-integration',
+      'bundler',
+
       # AVR / Arduino
       'arduino-core',
       'arduino-mk',
